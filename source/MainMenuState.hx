@@ -184,7 +184,7 @@ add(char);
 
 		camFollowPos.setPosition(FlxMath.lerp(camFollowPos.x, camFollow.x, lerpVal), FlxMath.lerp(camFollowPos.y, camFollow.y, lerpVal));
 
-char.dance()
+char.dance();
 
 		if (!selectedSomethin)
 		{
